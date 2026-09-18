@@ -306,6 +306,7 @@ results = await cognee.search("Tell me about Alice")
 | [memory-bank-mcp](#memory-bank-mcp) | growing | file system | 8 | Cline, Cursor |
 | [neo4j agent memory MCP](#neo4j-agent-memory) | growing | Neo4j | 6 | Any MCP client |
 | [kuzu-memory-graph-mcp](#kuzu-memory-graph-mcp) | growing | Kuzu | 5 | Any MCP client |
+| [Lockstep](#lockstep) | 10 | Postgres decision ledger | 14 | Claude Code, Cursor, any MCP agent |
 
 ---
 
@@ -399,6 +400,16 @@ results = await cognee.search("Tell me about Alice")
 - **GitHub**: https://github.com/jkear/kuzu-memory-graph-mcp
 
 ---
+---
+
+### Lockstep
+
+> Shared decision memory for teams building with AI coding agents. Captures decisions once, ranks them by blast radius, and briefs every MCP agent before it acts.
+
+- **GitHub**: https://github.com/lockstep-team-agent/lockstep
+- **Website**: https://getlockstep.dev
+- **Install**: `npm i -g lockstep-cli`
+
 
 ## 🤖 Agent Frameworks with Memory
 
